@@ -6,7 +6,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // var encoded=bodyParser.urlencoded({ extended: false })
 app.get('/',(req,res)=>{
     res.send("<h1>WELCOME to node js friends</h1>\
-    <h2>hiladiya na lodu saale</h2>")
+    <h2>i have a good experience with node js and react js</h2>")
 })
 app.listen(4000,()=>{
     console.log("listening on port 4000")
